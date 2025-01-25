@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Display from "./Display";
 import Numpad from "./Numpad";
-import Header from "./header";
+import Header from './Header'
 const Calculator = () => {
   const [value , setValue] = useState("")
   return (
